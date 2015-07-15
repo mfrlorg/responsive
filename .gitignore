@@ -11,3 +11,10 @@ wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
+inc/php/bookcovercaptcha.inc
+inc/php/mail.inc.php
+inc/php/openconnection.php
+inc/php/openconnectionro.php
+inc/php/mtgroomemailformat.php
+inc/php/mail.php
+inc/php/mail.customfrom.php

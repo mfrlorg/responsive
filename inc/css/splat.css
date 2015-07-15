@@ -1,0 +1,140 @@
+
+.paintmenu { margin-left:0;
+padding-left:0px;
+}
+.paintmenu li {
+background-repeat:no-repeat;
+display:block;
+width:172px;
+height:45px;
+background-position: -4px 0;
+height:35px;
+margin-left:0px;
+padding-left:10px;
+padding-top:10px;
+list-style-type:none;
+}
+.paintmenu li a {
+color:purple;
+text-decoration:none;
+font-size:12px;
+font-weight:bold;
+height:45px;
+display:block;
+}
+.one {
+background:url('images/menusplat.png');
+}
+.two {
+background:url('images/menusplat3.png');
+
+}
+.paintmenu li:hover {
+background:url('images/menusplat2.png');
+background-position: -10px 0;
+background-repeat:no-repeat;
+}
+.paintmenu li a:hover {
+}
+.readingsession {
+
+border: 2px solid purple; 
+padding-top:0; 
+margin-top:10px; 
+margin-bottom:10px; padding-right:1px; padding-left:35px;
+}
+h1 ,h2,h3{ 
+padding:3px;}
+
+p,h2,h3 {font-size:120%; 
+	
+	padding-left:5px;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:0;
+	padding-right:1px;
+	}
+	h2 {font-size:130%;}
+	h3{font-size:150%;}
+.headline {
+/*color:white;*/
+font-size: 2em;
+font-weight:bold;
+margin:0;
+margin-top:40px;
+padding-top:2px;
+}
+h1 {	/* background:url('images/paintswatch6.png'); */
+	color: black;
+	background-repeat: no-repeat;
+padding-top:5px;
+padding-bottom:6px;
+margin-top:40px;
+text-shadow: white 0px 0px 3px;
+
+}
+
+	.wpdiv {
+border: 2px solid purple; padding-top:0; margin-top:5px; margin-bottom:10px; padding-right:1px;
+background: url('images/alpha90percent.png');
+overflow:hidden;
+}
+a:hover {
+background:transparent;
+}
+table.storytimetimes {
+
+border-collapse:collapse;
+border: 1px solid white;
+}
+table.storytimetimes th {
+font-size:1.2em;
+height:25px;
+padding:5px;
+}
+table.storytimetimes td,table.storytimetimes th {
+width:129px;
+border: 1px solid white;
+background:#69f;
+}
+table.storytimetimes td {
+background:#9cf;
+text-align:center;
+vertical-align:middle;
+font-weight:bold;
+}
+table.storytimetimes td.double {
+width:269px;
+height:35px;
+font-weight:bold;
+}
+table.storytimetimes td.yellow {
+background:#fc0;
+color:white;
+}
+table.storytimetimes td.green {
+background:green;
+color:white;
+}
+table.storytimetimes td.purple {
+background:purple;
+color:white;
+}
+table.storytimetimes td.red {
+background:red;
+color:white;
+}
+table.storytimetimes td.blue {
+background:#39c;
+color:white;
+}
+table.storytimetimes td.pink {
+background:#f69;
+color:white;
+}
+table.storytimetimes td.gray {
+background:#ddd;
+color:#666;
+}
