@@ -4,7 +4,7 @@
 $whatserveristhis = 'thisisthetestserver.txt';
 if (file_exists($whatserveristhis)) {$server="test";}
 // ********
-// * 2014 *
+// * 2015 *
 // ********
 
 if($_REQUEST['slides']!='') $slides=intval($_REQUEST['slides']);
