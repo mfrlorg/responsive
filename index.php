@@ -650,331 +650,147 @@ $(document).ready(function(){
 <div id="news" style="min-height:266px;"><?}?>
 
 
-
-
-
-
-
-	<?if(speedslide(20150711,20150626,$slides,
-	"tmp/garden20",
-	"http://www.mfrlfriends.org/gardentour.html"))
+	<?if(speedslide(20150803,20150801,$slides,
+	"tmp/tomatocook",
+	"https://www.google.com/calendar/event?eid=NGM4NmNtcXNwcW52cHZhMDMwazA5b25kYmcgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
 	{$newscounter++; //end
-		}?>
-
-
-
-<?if(speedslide(20150629,20150622,$slides,
-"tmp/bloodjunb",
-"https://www.google.com/calendar/event?eid=c3JxaWkycWVrODJjbW44MG90YmJoNXZzajAgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
 	}?>
 
-
-
-<?if(speedslide(20150629,20150623,$slides,
-"tmp/dancepartyjunm",
-"https://www.google.com/calendar/event?eid=cTg5c3RiZXNyMTJwMmMxODI0OGt0ZTM3dmcgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-	}?>
-
-
-<?if(speedslide(20150629,20150624,$slides,
-"tmp/musicartjunc",
-"https://www.google.com/calendar/event?eid=b2x0NDAzZ2g5cDFnYWphanBuODhqMjJjMzQgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-	}?>
-
-
-<?if(speedslide(20150630,20150625,$slides,
-"tmp/longtermcare",
-"https://www.google.com/calendar/event?eid=ZmlzbDJxc2ZzbTNoNGNkdHZpcW10aTBpYXMgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-	}?>
-
-
-<?if(speedslide(20150630,20150625,$slides,
-"tmp/bloodjunc",
-"https://www.google.com/calendar/event?eid=YWZncjJmZDlqdW1sbWdjYmMzMjFiNGNlYTggYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-	}?>
-
-
-<?if(speedslide(20150630,20150625,$slides,
-"tmp/livehealthyjunc",
-"https://www.google.com/calendar/event?eid=ZjBqa2w0YzF0amhuNzRqZTJpdnV1M3UxZTQgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-	}?>
-
-<?if(speedslide(20150701,20150629,$slides,
-"tmp/dancepartyjul",
-"https://www.google.com/calendar/event?eid=NDBvOTh1bjQwZGk1cTVlbnUxbGRmbWpuZm8gMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-	}?>
-
-<?if(speedslide(20150701,20150629,$slides,
-"tmp/gameonjulall",
-"gameon.php"))
-{$newscounter++; //end
-	}?>
-
-	<?if(speedslide(20150702,20150701,$slides,
-	"tmp/guessjulf",
-	"https://www.google.com/calendar/event?eid=MGVxZHFydjZyNTEwNHFmNmV1aXNxbGwzOTAgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
+	<?if(speedslide(20150804,20150801,$slides,
+	"tmp/bricksaugb",
+	"https://www.google.com/calendar/event?eid=OXM5YXA1MnBnZjZncTVpOHNoOGRrNW90NDggZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
 	{$newscounter++; //end
-		}?>
+	}?>
 
-
-
-	<?if(speedslide(20150708,20150703,$slides,
-	"tmp/zelnik",
-	"https://www.google.com/calendar/event?eid=MmczdGRkcTJ2ZWN0bmpscW5jaGhzcHRrcDAgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
+	<?if(speedslide(20150804,20150801,$slides,
+	"tmp/cardboard",
+	"https://www.google.com/calendar/event?eid=c2NmOWJkOGF0NTFqaGI3ZnNtN29vODRob28gYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
 	{$newscounter++; //end
-		}?>
-
-
-		<?if(speedslide(20150716,20150705,$slides,
-		"tmp/brickjulbnc",
-		"https://www.google.com/calendar/event?eid=M2ltN3VsNDk0bTQxbThuaTZlNjBtczM2amcgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-		{$newscounter++; //end
-			}?>
-
-
-<?if(speedslide(20150709,20150703,$slides,
-"tmp/bugs",
-"https://www.google.com/calendar/event?eid=NTN2ZHAyZTA1NWY5dWlzamc0NjFyNDF0MnMgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150709,20150705,$slides,
-"tmp/movieriffjulc",
-"https://www.google.com/calendar/event?eid=ZWxxaW41aTJvZjJ0ZmlzNmJrZW9rNW5rYWMgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-
-<?if(speedslide(20150709,20150708,$slides,
-"tmp/bloodjulf",
-"https://www.google.com/calendar/event?eid=ZDRtMzRwNmo4NDUyNzg1bGR1NjJkYjlnZWsgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150710,20150708,$slides,
-"tmp/dmvjulf",
-"https://www.google.com/calendar/event?eid=ZTA5NDQ2ZnQ0N2hwbnIxa2txN3Q2MjZsMWMgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150710,20150705,$slides,
-"tmp/murder",
-"https://www.google.com/calendar/event?eid=Y29nY2J0dDExOXVmbnRubWxncGs1aWdzbGcgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150710,20150708,$slides,
-"tmp/yugiohjulcf",
-"https://www.google.com/calendar/event?eid=cmN1aGI1OTRzN2Q4b2Zta2dmbDFmdjUzZjQgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150711,20150709,$slides,
-"tmp/scrabblejul",
-"https://www.google.com/calendar/event?eid=MjAwcXJoNDA0cmM1bzdxcGUzbWdmY2oxMjggMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150711,20150709,$slides,
-"tmp/tagjul",
-"https://www.google.com/calendar/event?eid=c2cyaGNyZzJqaWN0YmExZ2k1bG5ta2NiaWcgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150711,20150708,$slides,
-"tmp/carnivores",
-"https://www.google.com/calendar/event?eid=czYwajcyNm1zamZpM2Q3ZGpxczdqZzlxa3MgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150711,20150707,$slides,
-"tmp/rockbandjulb",
-"gameon.php"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150711,20150708,$slides,
-"tmp/mtajulm",
-"https://www.google.com/calendar/event?eid=b21vZmxxcHR2NWFjY2Yyc2ZjZGtmOWw1cDQgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150713,20150710,$slides,
-"tmp/dancepartyjul",
-"https://www.google.com/calendar/event?eid=Z3BlZGttcXJqYjJiM2pwNWVybW83Ymhic2MgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150713,20150711,$slides,
-"tmp/gameonjulall",
-"gameon.php"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150714,20150711,$slides,
-"tmp/musiccraftjulm",
-"https://www.google.com/calendar/event?eid=OW00anVkNXF1ZGllNWQ5NW81cjA4OHI4YzAgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150714,20150712,$slides,
-"tmp/mdbcjulb",
-"https://www.google.com/calendar/event?eid=Z2U2aTMwbWU2cjUyams4anYxbmo0cGFkdjggZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150715,20150712,$slides,
-"tmp/dancejulc",
-"https://www.google.com/calendar/event?eid=YWY0M2t2OWxiMzhtbXIwdHNzdnA4Zms5dWsgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150715,20150712,$slides,
-"tmp/painjulb",
-"https://www.google.com/calendar/event?eid=aWM0ZWVtNGZkOG0wOGR2NWJ0MmV0aG40aGMgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150716,20150715,$slides,
-"tmp/artmusicjulc",
-"https://www.google.com/calendar/event?eid=dW85ZjE2NWg2Z2ppdW9nY3FkaTM5b2tkaGcgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-
-<?if(speedslide(20150717,20150714,$slides,
-"tmp/pianoconcert",
-"https://www.google.com/calendar/event?eid=amI3bzRwMm5wdGdtZHJiOHBiazg3YWpyYm8gYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150717,20150714,$slides,
-"tmp/instpettingzoo",
-"https://www.google.com/calendar/event?eid=Njl2ZXU5a2lkNzUzYWhxOGs5cDM2bDAxMjAgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150717,20150714,$slides,
-"tmp/scratchprogram",
-"https://www.google.com/calendar/event?eid=bXRvcjRldTY1OHNhcGZoM2s2b29mczFzaTggYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150718,20150715,$slides,
-"tmp/mtajulb",
-"https://www.google.com/calendar/event?eid=N3Y1ODA5a3FuN2t0Zm1lM25iNGx0MG44MzggZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-
-<?if(speedslide(20150718,20150709,$slides,
-"tmp/wirjulc",
-"https://www.google.com/calendar/event?eid=azlhcXRyN3MycGw3dmdtZDFiMWZraTdqamsgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150718,20150716,$slides,
-"tmp/petsjulm",
-"https://www.google.com/calendar/event?eid=NHFoM3A1OHN0NWQ4M29nMGNqcDQ1ZmRzcmMgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150721,20150716,$slides,
-"tmp/shadowfactory",
-"https://www.google.com/calendar/event?eid=YmpobjNhbzRudG8zcG85bjgwa285MjE5ZW8gMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150721,20150717,$slides,
-"tmp/cuba",
-"https://www.google.com/calendar/event?eid=cnRqMTFzOGk5ZmdxMzk3MzU3dG44cnMzMzQgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150725,20150720,$slides,
-"tmp/gameonjulall",
-"gameon.php"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150724,20150720,$slides,
-"tmp/ticksjulb",
-"https://www.google.com/calendar/event?eid=bjM5ZnVodG5sbW5raXJhYnJra2lrcjRlNWcgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150724,20150720,$slides,
-"tmp/teenlockin",
-"https://www.google.com/calendar/event?eid=M2lnZG01dXAyazk3YTBjcG1hcDBnNzBoamMgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150725,20150721,$slides,
-"tmp/adoptathon",
-"https://www.google.com/calendar/event?eid=MzUxN2VrOXQ1dTY5cWI1NXE4bDdyNTNyc2cgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150725,20150722,$slides,
-"tmp/quiltjulm",
-"https://www.google.com/calendar/event?eid=dG9sOTFwOTY2dTYxZGs0NzB2azZjdWQ5MjggNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-<?if(speedslide(20150727,20150722,$slides,
-"tmp/tomatojulm",
-"https://www.google.com/calendar/event?eid=bnZidDl2ZTlyNGdnZjllbjA3NDVjaDJkdHMgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-
-
-<?if(speedslide(20150718,20150716,$slides,
-"tmp/tagjul",
-"https://www.google.com/calendar/event?eid=cHF1OHZzZmM5c2ppcWdxOHM2cG11OWprc3MgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-
-
-<?if(speedslide(20150728,20150723,$slides,
-"tmp/scrabblejul",
-"https://www.google.com/calendar/event?eid=cGU4dW51ZzNqazJqNXN2M2ZnZGxmZHY5NTAgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
-<?if(speedslide(20150729,20150726,$slides,
-"tmp/yugiohjulcf",
-"https://www.google.com/calendar/event?eid=cjF0cDlqYTd0cGxsZTMzNjlpZWlvYWNhYjggMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
-{$newscounter++; //end
-}?>
-
+	}?>
+
+	<?if(speedslide(20150804,20150801,$slides,
+	"tmp/tomatoart",
+	"https://www.google.com/calendar/event?eid=M2w3ZWVuMTRxNnU4dmlidDhoYnZvY3NpMmcgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150805,20150802,$slides,
+	"tmp/zucchini",
+	"https://www.google.com/calendar/event?eid=NmlocXZlNms3anE5OG5rYWtyNmZsNjJ2MDBfMjAxNTA4MDQgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150806,20150802,$slides,
+	"tmp/veins",
+	"https://www.google.com/calendar/event?eid=YzJybDRjaDFoMnZyYmhjZW5rdWw0czVybGsgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150807,20150803,$slides,
+	"tmp/yugiohaug",
+	"https://www.google.com/calendar/event?eid=Zmxyc2RuNDlrcXVnMnF0a2loZmVpMjkxZWMgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150815,20150801,$slides,
+	"tmp/gameonauga",
+	"gameon.php"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150807,20150803,$slides,
+	"tmp/scrabble",
+	"https://www.google.com/calendar/event?eid=czVoNWx0dmhtYzVlZGRzbGhrbDVvcDNuZTggMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+
+
+	<?if(speedslide(20150811,20150804,$slides,
+	"tmp/bookswap",
+	"https://www.google.com/calendar/event?eid=aWVqMWNqaWsxa3JjYnN1bTBxcThlbHY3M3MgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150811,20150805,$slides,
+	"tmp/sunsafety",
+	"https://www.google.com/calendar/event?eid=ZmVuMzNqbGJubGFqdDc3ajdkZTFwOTQ3bjAgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150813,20150806,$slides,
+	"tmp/claypen",
+	"https://www.google.com/calendar/event?eid=b21pYmJqcXNqN2dlOTUwdTU3aGdldGt0OTggZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150814,20150807,$slides,
+	"tmp/dmv2goaugf",
+	"https://www.google.com/calendar/event?eid=azl1ODluaTZudjRoOG1uY3VqN3RxcG1tM2cgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150815,20150807,$slides,
+	"tmp/frozenparty",
+	"https://www.google.com/calendar/event?eid=OG45YmM1ZW1nZjZjNjdhY2dkbTIyMm92djggYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150815,20150807,$slides,
+	"tmp/flagaugf",
+	"https://www.google.com/calendar/event?eid=dXVnNWYyN2hkZ3R0a3BvcmJtMWxjODZsanMgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150815,20150807,$slides,
+	"tmp/tomatofest",
+	"https://www.google.com/calendar/event?eid=cjlmZ2JlNXVoZmNnMjlhcmR0ZTU1OWtvYTAgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150815,20150808,$slides,
+	"tmp/magicaugm",
+	"https://www.google.com/calendar/event?eid=dnVzZ2ltYTAxODlrOW41MnBlNnBqYmxlcWsgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150816,20150809,$slides,
+	"tmp/huntaugf",
+	"https://www.google.com/calendar/event?eid=OHVkcm1vcTgzMHJlZ25lYnB1dGVuZmplcm8gMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150818,20150809,$slides,
+	"tmp/seniornavaugb",
+	"https://www.google.com/calendar/event?eid=bXQ3bjZyYWNqajZwY3NiaGw3ZzUwa2hkMTggZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150818,20150809,$slides,
+	"tmp/artrelax",
+	"https://www.google.com/calendar/event?eid=Nm0xaTE3YWdrZWJiOWVrMWtvY2htZXFsZW8gZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+	<?if(speedslide(20150819,20150810,$slides,
+	"tmp/buttfly",
+	"https://www.google.com/calendar/event?eid=NWM4NmIya25icmE1N3RoYWxiaGthbDV1aTggZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+
+	<?if(speedslide(20150820,20150811,$slides,
+	"tmp/writeaugm",
+	"https://www.google.com/calendar/event?eid=YTFubzBvbHJyczhxaWxmamtwYjFkcm4xcTRfMjAxNTA4MjBUMjIwMDAwWiA0azA5ajZqcTdzczZvb2UzcDk2MXJ0Z3JmZ0Bn&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
+
+
+	<?if(speedslide(20150825,20150815,$slides,
+	"tmp/scrabble",
+	"https://www.google.com/calendar/event?eid=czVoNWx0dmhtYzVlZGRzbGhrbDVvcDNuZTggMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York"))
+	{$newscounter++; //end
+	}?>
 
 
 <?if(speedslide(20160101,20150519,$slides,
@@ -1192,30 +1008,13 @@ if($view!="debug"){?>
 
 
 
-<?if($month<6){?>
-<div style="margin-bottom:5px; border:4px solid #66ccff; border-left: 0; border-right:0;">
-<?if(speedslide(20150725,20150519,100,
-"tmp/srp2015soon",
+<?if($month<9){?>
+<div style="fpdiv">
+<?if(speedslide(20150901,20150728,100,
+"tmp/starreaders2015",
 ""))
 {$newscounter++; //end
 	}?>
-
-</div><?}elseif(($month==6)||(($month==7)&&($day<26))){?>
-
- <div id="srp15" style="padding:0; padding-top:40px; margin-bottom:20px; border:0; width:473px; height:226px; background-image: url(../images/tmp/srp2015bg.png);">
-
-<p style="line-height:1.3em; margin-left:5px; width:275px; font-size:16px; font-weight:bold; text-align:center; ">
-	Sign up for the Summer Reading Program!<br><br>
-
-<a href="https://virginia.evanced.info/mfrl/sr/homepage.asp?ProgramID=26" onClick="javascript: pageTracker._trackPageview('/outgoing/<?echo($inlibrary?"i":"o");?>l/srpkids');">Signup for Children</a><br>
-<a href="https://virginia.evanced.info/mfrl/sr/homepage.asp?ProgramID=27" onClick="javascript: pageTracker._trackPageview('/outgoing/<?echo($inlibrary?"i":"o");?>l/srpteens');">Signup for Teens</a><br>
-<a href="https://virginia.evanced.info/mfrl/sr/homepage.asp?ProgramID=28" onClick="javascript: pageTracker._trackPageview('/outgoing/<?echo($inlibrary?"i":"o");?>l/srpadults');">Signup for Adults</a><br><br>
-
-The Summer Reading Program runs  from June 1 to July 25.</p>
-
-
-
-
 
 </div><?}?>
 
