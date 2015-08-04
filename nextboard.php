@@ -4,68 +4,64 @@ function nextmeeting($leadtime="") {
 	global $currentpage;
 	global $server;
 	global $post;
-	// This should be set to the FIRST meeting in the array. Keep in ORDER. Do not skip numbers. 
+	// This should be set to the FIRST meeting in the array. Keep in ORDER. Do not skip numbers.
 	// Blank entries are mostly okay, but BRANCH is required!
 	$meetcount =0;
-	$meetingdates[0]=array ( date=> "20140820",
-								link => "https://www.google.com/calendar/event?eid=YjM0azU3OWUwajM3YjY1MmJqYnZtMnUyYWcgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York",
-								branch => "c",
+
+$meetingdates[0]=array ( date=> "20150819",
+								link => "https://www.google.com/calendar/event?eid=MjBxbzBqZ2I3aG1yYjFrMXNpMDljb20wMXMgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York",
+								branch => "m",
 								mtime => "7pm"
-							);
-	$meetingdates[1]=array ( date=> "20140917",
-								link => "https://www.google.com/calendar/event?eid=bm83dWpibTI1NGwxNTJyb285bnRpZ2s4NGMgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York",
+);
+
+$meetingdates[1]=array ( date=> "20150916",
+								link => "https://www.google.com/calendar/event?eid=NjQxZzkxOGl0bTNiOGw1dW9iOTYwY2MzYTAgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York",
 								branch => "b",
 								mtime => "7pm"
-							);
-							
-	$meetingdates[2]=array ( date=> "20141015",
-								link => "https://www.google.com/calendar/event?eid=aDJ1cXFpOGFtdGpsOTY2ZDB2ZzJiZGowa2MgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York",
+);
+$meetingdates[2]=array ( date=> "20151021",
+								link => "https://www.google.com/calendar/event?eid=ZGc3Zm5xaDZrOWE3N2czN2JubjFqczB0bW8gMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw&ctz=America/New_York",
 								branch => "f",
 								mtime => "7pm"
-							);
-							
-	$meetingdates[3]=array ( date=> "20141217",
-								link => "https://www.google.com/calendar/event?eid=aTVvcW1xbTA3NWhjc2tjN285czNhaDA5NWMgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York",
+);
+$meetingdates[3]=array ( date=> "20151216",
+								link => "https://www.google.com/calendar/event?eid=c2o0NnAyNGRhZ2VzczdvNWwzNWgwaHRpZHMgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York",
+								branch => "c",
+								mtime => "7pm"
+);
+$meetingdates[4]=array ( date=> "20160120",
+								link => "https://www.google.com/calendar/event?eid=NDNyOWhpZjNrNXVpbmRpbGU4YjNlcWEwY28gYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York",
+								branch => "c",
+								mtime => "7pm"
+);
+$meetingdates[5]=array ( date=> "20160217",
+								link => "https://www.google.com/calendar/event?eid=MGwxa2ZqbjJpdTYyZ2szNzF2Zmw2bjExMDAgZmJrbGV0Z2pkdDkzZzMyN2dldTdqb2l0ZTRAZw&ctz=America/New_York",
+								branch => "b",
+								mtime => "7pm"
+);
+$meetingdates[6]=array ( date=> "20160316",
+								link => "https://www.google.com/calendar/event?eid=MGNmdXQ3cnMzaWhjazg4czlsdGdmczM5cjggYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York",
+								branch => "c",
+								mtime => "7pm"
+);
+$meetingdates[7]=array ( date=> "20160420",
+								link => "https://www.google.com/calendar/event?eid=ODlhODNyZG5zdDAwdHJicDQzMjgxZHYwa28gYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York",
+								branch => "c",
+								mtime => "7pm"
+);
+$meetingdates[8]=array ( date=> "20160518",
+								link => "https://www.google.com/calendar/event?eid=dmR2cm1zdWR2Ymc2cGVzcWU5bXNvMnM2dW8gYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw&ctz=America/New_York",
+								branch => "c",
+								mtime => "7pm"
+);
+$meetingdates[9]=array ( date=> "20160615",
+								link => "https://www.google.com/calendar/event?eid=cDJubmQ0cmkwNWJpMWM5bGpzN2ZiMTJibG8gNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw&ctz=America/New_York",
 								branch => "m",
 								mtime => "7pm"
-							);
-							
-	$meetingdates[4]=array ( date=> "20150121",
-								link => "https://www.google.com/calendar/event?eid=a2JtNXFtNmhtZHFnYWdvc29rZGM0bXIxbjRfMjAxNTAxMjJUMDAwMDAwWiBjMnY3ZnFraGtjNDJmbTI1czE0NWdvNmNhZ0Bn&ctz=America/New_York",
-								branch => "c",
-								mtime => "7pm"
-							);
-							
-	$meetingdates[5]=array ( date=> "20150225",
-								link => "https://www.google.com/calendar/event?eid=ZThjcTdxMGttNmw5N3IwdjlnMHJkb2dnYjQgYzJ2N2Zxa2hrYzQyZm0yNXMxNDVnbzZjYWdAZw",
-								branch => "c",
-								mtime => "7pm"
-							);
-							
-	$meetingdates[6]=array ( date=> "20150318",
-								link => "https://www.google.com/calendar/event?eid=a2JtNXFtNmhtZHFnYWdvc29rZGM0bXIxbjRfMjAxNTAzMThUMjMwMDAwWiBjMnY3ZnFraGtjNDJmbTI1czE0NWdvNmNhZ0Bn&ctz=America/New_York",
-								branch => "c",
-								mtime => "7pm"
-							);
-							
-	$meetingdates[7]=array ( date=> "20150415",
-								link => "https://www.google.com/calendar/event?eid=czl2aTBwMjF2ZmoxdnJ1dWlpZWI5cDU0NHMgMW84OWc1YXA2bzFoZmI4ZThxYmdhMzlncGdAZw",
-								branch => "f",
-								mtime => "7pm"
-							);
-	$meetingdates[8]=array ( date=> "20150520",
-								link => "https://www.google.com/calendar/event?eid=a2JtNXFtNmhtZHFnYWdvc29rZGM0bXIxbjRfMjAxNTA1MjBUMjMwMDAwWiBjMnY3ZnFraGtjNDJmbTI1czE0NWdvNmNhZ0Bn&ctz=America/New_York",
-								branch => "c",
-								mtime => "7pm"
-							);
-							
-	$meetingdates[9]=array ( date=> "20150617",
-								link => "https://www.google.com/calendar/event?eid=NDEwaTF2dmlxMW10ZnRlZzA3M2twNGJwcjQgNGswOWo2anE3c3M2b29lM3A5NjFydGdyZmdAZw",
-								branch => "m",
-								mtime => "7pm"
-							);
-							
-							
+);
+
+
+
 	$meetingerror="error";
 if (($currentpage=="index.php")||($currentpage=="boardoftrustees.php")) {
 	if (($_REQUEST['futuredate']=="today")||($_REQUEST['futuredate']=='')) {	$curdate = mktime(0,0,0,date("m"),date("d"),date("Y")); }
@@ -77,13 +73,13 @@ if (($currentpage=="index.php")||($currentpage=="boardoftrustees.php")) {
 		$monthtemp = substr($datetemp,4,2);
 		$daytemp = substr($datetemp,6,2);
 		$nextmeeting = mktime(0,0,0,$monthtemp,$daytemp,$yeartemp);
-		
+
 		if ($leadtime!="") { $leaddate=$curdate+$leadtime;
-		
+
 		}
-		if ((($leadtime!="")&&(($nextmeeting >= $curdate)&&($leaddate >= $nextmeeting)))||(($leadtime=="")&&($nextmeeting >= $curdate)))		{ 
+		if ((($leadtime!="")&&(($nextmeeting >= $curdate)&&($leaddate >= $nextmeeting)))||(($leadtime=="")&&($nextmeeting >= $curdate)))		{
 		if (($currentpage=="index.php")||($currentpage=="newindex.php")) {echo "<p class=\"bluefirst\">Board of Trustees Meeting<br>";}
-		
+
 			echo " The next meeting will be held at the ";
 			switch ($meetingdates[$meetcount]['branch']) {
 			case "b":	echo "Blacksburg";		break;
@@ -93,18 +89,18 @@ if (($currentpage=="index.php")||($currentpage=="boardoftrustees.php")) {
 			default:	echo "Unknown";	break;
 			}
 			if ($meetingdates[$meetcount]['link']==''){
-				echo " Branch on <a href=\"activities.php?showday=".$datetemp."\">".date("l, F j Y",$nextmeeting)."</a>"; $meetingerror=""; 
+				echo " Branch on <a href=\"activities.php?showday=".$datetemp."\">".date("l, F j Y",$nextmeeting)."</a>"; $meetingerror="";
 				}else {
 					$linktmp=str_replace("&","&amp;",$meetingdates[$meetcount]['link']);
-					
-				echo " Branch on <a href=\"".$linktmp."\">".date("l, F j Y",$nextmeeting)."</a>"; $meetingerror=""; 
+
+				echo " Branch on <a href=\"".$linktmp."\">".date("l, F j Y",$nextmeeting)."</a>"; $meetingerror="";
 				}
 			if ($meetingdates[$meetcount]['mtime']!=''){echo "<b> at ".$meetingdates[$meetcount]['mtime']."</b>"; }
 			echo ". ";
 if ($server!="test") {
 $args = array(
 		'numberposts' => 1,
-		
+
 		'category' => 29 );
 $lastposts = get_posts($args);
 }
@@ -116,16 +112,16 @@ else foreach($lastposts as $post) {
     echo "<a href=\"";
     the_permalink();
     echo "\">";
-    the_title(); 
-    echo "</a>."; 
+    the_title();
+    echo "</a>.";
 }			break;
-			
+
 			if (($currentpage=="index.php")||($currentpage=="newindex.php")) {echo "</p>";}
 			}
 		else	{
 			$meetcount++;
 			}
-			
+
 		//  in the <a href=\"\">future</a>.";
 		}
 		if (($leadtime=="")&&($meetingerror!="")) echo "ERROR: Future Schedule not found.<br>";
