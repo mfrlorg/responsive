@@ -12,10 +12,11 @@ if (file_exists($whatserveristhis)) {$server="test";}
 <head>
 <title>Policy</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="kwYyWkz6FQf_DQmvAwDvYR1Ccb2UmOn_tqnHVYAEBTM" />
 <link href="xxxmfrl.css" rel="stylesheet" type="text/css" >
 <link href="xxxmfrlpage.css" rel="stylesheet" type="text/css" >
-<link type="text/css" href="/inc/css/jquery-ui-1.8.11.custom.css" rel="stylesheet" />	
+<link type="text/css" href="/inc/css/jquery-ui-1.8.11.custom.css" rel="stylesheet" />
 <script type="text/javascript" src="/inc/js/jquery-1.5.1.min.js"></script>
 <script type="text/javascript" src="/inc/js/jquery-ui-1.8.11.custom.min.js"></script>
 <script type="text/javascript" src="/inc/js/jquery.cycle.all.min.js"></script>
@@ -52,7 +53,7 @@ font-size:11px;
 	<div id="menucont"><?include'xxxmenu.php';?></div>
 	<div id="maincontent">
 		<div id="leftmenu">
-			<?include'menu.about.php';?>			
+			<?include'menu.about.php';?>
 		</div> <!-- End Menu col -->
 		<div id="fullrightcol">
 			<div class="pagediv">
@@ -63,8 +64,8 @@ font-size:11px;
 <p>
 The latest version of each policy will be made available after having been approved by the Board. Check with your local branch to ensure you have the most current version.</p>
 <p><b>View our <a href="/catalog.php?catmenu=circpolicy">Circulation Information</a> for a list of checkout periods and late fees.</b></p>
-<p>Click on an individual policy to open it in Adobe Acrobat format. If you do 
-not have Adobe Acrobat Reader you can download it for free from <a href="http://get.adobe.com/reader/">Adobe.com</a>. 
+<p>Click on an individual policy to open it in Adobe Acrobat format. If you do
+not have Adobe Acrobat Reader you can download it for free from <a href="http://get.adobe.com/reader/">Adobe.com</a>.
 </p>
 
 <ul class="policies">
@@ -116,7 +117,7 @@ not have Adobe Acrobat Reader you can download it for free from <a href="http://
 	<li  class="bigtop"><a href="/policies/CodeOfConduct.pdf">Library Code of Conduct</a> <span class="dates">(approved May 21, 2014)</span></li>
     <li><a href="/policies/PolicyOnConfidentiality.pdf">Policy on Confidentiality</a> <span class="dates">(January 20, 1971; endorsed October 17, 2001; April 20, 2011)</span></li>
 	<li><a href="/policies/CodeOfEthics.pdf">American Library Association Code of Ethics</a>
-	<span class="dates">(June 28, 1997, January 22, 2008; 
+	<span class="dates">(June 28, 1997, January 22, 2008;
 	<br><span style="margin-left:256px;">Endorsed November 15, 2000, March 18, 2009)</span></span></li>
     <li><a href="/policies/FreedomToReadStatement.pdf">Freedom to Read</a> <span class="dates">(June 25, 1953, June 30, 2004; Endorsed November 15, 2000; March 18, 2009)</span></li>
     <li><a href="/policies/LibraryBillOfRights.pdf">Library Bill of Rights</a> <span class="dates">(June 18, 1948; endorsed November 15, 2000; April 20, 2011)</span></li>
