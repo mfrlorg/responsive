@@ -18,5 +18,3 @@ inc/php/openconnectionro.php
 inc/php/mtgroomemailformat.php
 inc/php/mail.php
 inc/php/mail.customfrom.php
-deploy.php
-deploy-config.php
