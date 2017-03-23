@@ -10,7 +10,7 @@ if (file_exists($whatserveristhis)) {$server="test";}
 	include 'inlibrary.php';?>
 <html>
 <head>
-<title>Policy</title>
+<title>Police E</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="kwYyWkz6FQf_DQmvAwDvYR1Ccb2UmOn_tqnHVYAEBTM" />
@@ -57,7 +57,7 @@ font-size:11px;
 		</div> <!-- End Menu col -->
 		<div id="fullrightcol">
 			<div class="pagediv">
-<h1>Policies EDITED</h1>
+<h1>Policies</h1>
 
 
 
