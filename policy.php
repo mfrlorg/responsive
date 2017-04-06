@@ -58,7 +58,7 @@ font-size:11px;
 		<div id="fullrightcol">
 			<div class="pagediv">
 
-<h1>Policies preFIXED</h1>
+<h1>Policies FIXED v4</h1>
 
 <p>
 The latest version of each policy will be made available after having been approved by the Board. Check with your local branch to ensure you have the most current version.</p>
